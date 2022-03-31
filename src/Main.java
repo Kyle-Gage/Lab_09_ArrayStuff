@@ -71,5 +71,20 @@ public class Main {
         }
         System.out.printf("\n The min max is %4d %4d", min, max);
 
+        System.out.println("\n Average of dataPoints is: " + getAverage(dataPoints));
+
+    }
+    public static double getAverage(int values[])
+    {
+        int sum = 0;
+        double average = 0;
+
+
+        for (int i : values)
+        {
+            sum += i;
+        }
+        average = (double) sum / values.length;
+        return average;
     }
 }
