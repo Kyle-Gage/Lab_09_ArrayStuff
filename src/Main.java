@@ -55,10 +55,9 @@ public class Main {
                 break;
             }
         }
-        /*
+        int max = dataPoints[0];
+        int min = dataPoints[99];
 
-        int
-        int 
         for(int e:dataPoints)
         {
             if(e > max ) // Found a new max value
@@ -70,7 +69,7 @@ public class Main {
                 min = e;
             }
         }
-        System.out.printf("\n \n The min max is %4d %4d", min, max);
-    */
+        System.out.printf("\n The min max is %4d %4d", min, max);
+
     }
 }
